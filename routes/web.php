@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\FormController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,8 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard/{section?}', [DashboardController::class, 'index'])->name('dashboard');
-
-
+Route::get('/form-data', [FormController::class, 'index']);
 
 
 

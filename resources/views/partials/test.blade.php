@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-<p>Test File Loaded</p>
+<p class="text-center">Test File Loaded</p>
 </body>
 </html>
