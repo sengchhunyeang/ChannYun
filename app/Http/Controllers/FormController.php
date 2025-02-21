@@ -8,8 +8,8 @@ class FormController extends Controller
 {
     public function index()
     {
-        $formData = FormData::all(); // Fetch data from the database
-        return view('form_data', compact('formData'));
+        // Handle form data logic
+        return view('partials.form_data');
     }
 
 }

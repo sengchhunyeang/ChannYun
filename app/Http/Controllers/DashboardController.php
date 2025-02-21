@@ -8,7 +8,7 @@ class DashboardController extends Controller
     public function index($section = 'content-a')
     {
         // Default to 'content-a' if no section is provided
-        return view('dashboard', ['content' => $section]);
+       return view('dashboard', ['section' => $section]);
     }
 
 }
